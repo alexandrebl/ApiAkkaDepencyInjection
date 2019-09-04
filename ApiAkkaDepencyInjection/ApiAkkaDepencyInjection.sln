@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAkkaDepencyInjection.Application", "ApiAkkaDepencyInjection\ApiAkkaDepencyInjection.Application.csproj", "{AEA739F6-2A2D-4CEE-ABCD-A52E51D06714}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAkkaDepencyInjection.Services", "ApiAkkaDepencyInjection.Services\ApiAkkaDepencyInjection.Services.csproj", "{5B9B8988-5797-4ACF-9D4F-9E4F5C90EC19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAkkaDepencyInjection.Domain", "ApiAkkaDepencyInjection.Domain\ApiAkkaDepencyInjection.Domain.csproj", "{3CB10B39-D0BF-4BD6-B2BA-AF84376561A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAkkaDepencyInjection.Repository", "ApiAkkaDepencyInjection.Repository\ApiAkkaDepencyInjection.Repository.csproj", "{C83FF312-84A9-48BA-B1A8-0098229D837F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAkkaDepencyInjection.CrossCuting", "ApiAkkaDepencyInjection.CrossCuting\ApiAkkaDepencyInjection.CrossCuting.csproj", "{E7FE9AB9-0574-44B8-A943-844B5607F5F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEA739F6-2A2D-4CEE-ABCD-A52E51D06714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA739F6-2A2D-4CEE-ABCD-A52E51D06714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA739F6-2A2D-4CEE-ABCD-A52E51D06714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA739F6-2A2D-4CEE-ABCD-A52E51D06714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B9B8988-5797-4ACF-9D4F-9E4F5C90EC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B9B8988-5797-4ACF-9D4F-9E4F5C90EC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B9B8988-5797-4ACF-9D4F-9E4F5C90EC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B9B8988-5797-4ACF-9D4F-9E4F5C90EC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CB10B39-D0BF-4BD6-B2BA-AF84376561A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB10B39-D0BF-4BD6-B2BA-AF84376561A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB10B39-D0BF-4BD6-B2BA-AF84376561A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB10B39-D0BF-4BD6-B2BA-AF84376561A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83FF312-84A9-48BA-B1A8-0098229D837F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83FF312-84A9-48BA-B1A8-0098229D837F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83FF312-84A9-48BA-B1A8-0098229D837F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83FF312-84A9-48BA-B1A8-0098229D837F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7FE9AB9-0574-44B8-A943-844B5607F5F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FE9AB9-0574-44B8-A943-844B5607F5F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7FE9AB9-0574-44B8-A943-844B5607F5F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7FE9AB9-0574-44B8-A943-844B5607F5F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B565A6A-C036-4390-8C96-127C0C2F2B09}
+	EndGlobalSection
+EndGlobal

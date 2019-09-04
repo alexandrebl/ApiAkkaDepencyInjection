@@ -1,0 +1,8 @@
+C:\repository\git\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection.Domain\bin\Debug\netstandard2.0\ApiAkkaDepencyInjection.Domain.deps.json
+C:\repository\git\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection.Domain\bin\Debug\netstandard2.0\ApiAkkaDepencyInjection.Domain.dll
+C:\repository\git\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection.Domain\bin\Debug\netstandard2.0\ApiAkkaDepencyInjection.Domain.pdb
+C:\repository\git\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection.Domain\obj\Debug\netstandard2.0\ApiAkkaDepencyInjection.Domain.csproj.CoreCompileInputs.cache
+C:\repository\git\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection.Domain\obj\Debug\netstandard2.0\ApiAkkaDepencyInjection.Domain.AssemblyInfoInputs.cache
+C:\repository\git\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection.Domain\obj\Debug\netstandard2.0\ApiAkkaDepencyInjection.Domain.AssemblyInfo.cs
+C:\repository\git\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection.Domain\obj\Debug\netstandard2.0\ApiAkkaDepencyInjection.Domain.dll
+C:\repository\git\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection.Domain\obj\Debug\netstandard2.0\ApiAkkaDepencyInjection.Domain.pdb
