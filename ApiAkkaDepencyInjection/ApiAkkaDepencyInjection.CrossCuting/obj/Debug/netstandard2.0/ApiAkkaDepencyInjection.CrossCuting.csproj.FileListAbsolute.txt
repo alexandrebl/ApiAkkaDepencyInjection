@@ -1,8 +1,0 @@
-C:\repository\git\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection.CrossCuting\bin\Debug\netstandard2.0\ApiAkkaDepencyInjection.CrossCuting.deps.json
-C:\repository\git\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection.CrossCuting\bin\Debug\netstandard2.0\ApiAkkaDepencyInjection.CrossCuting.dll
-C:\repository\git\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection.CrossCuting\obj\Debug\netstandard2.0\ApiAkkaDepencyInjection.CrossCuting.csproj.CoreCompileInputs.cache
-C:\repository\git\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection.CrossCuting\obj\Debug\netstandard2.0\ApiAkkaDepencyInjection.CrossCuting.AssemblyInfoInputs.cache
-C:\repository\git\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection.CrossCuting\obj\Debug\netstandard2.0\ApiAkkaDepencyInjection.CrossCuting.AssemblyInfo.cs
-C:\repository\git\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection.CrossCuting\bin\Debug\netstandard2.0\ApiAkkaDepencyInjection.CrossCuting.pdb
-C:\repository\git\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection.CrossCuting\obj\Debug\netstandard2.0\ApiAkkaDepencyInjection.CrossCuting.dll
-C:\repository\git\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection\ApiAkkaDepencyInjection.CrossCuting\obj\Debug\netstandard2.0\ApiAkkaDepencyInjection.CrossCuting.pdb
