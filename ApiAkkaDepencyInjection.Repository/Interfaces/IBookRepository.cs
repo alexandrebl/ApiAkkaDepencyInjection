@@ -1,7 +1,6 @@
 ﻿using ApiAkkaDepencyInjection.Domain;
-using System;
-using System.Collections.Generic;
 using ApiAkkaDepencyInjection.Repository.Base;
+using System.Collections.Generic;
 
 namespace ApiAkkaDepencyInjection.Repository.Interfaces
 {

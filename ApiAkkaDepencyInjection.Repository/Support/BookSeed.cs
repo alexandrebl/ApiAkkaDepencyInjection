@@ -1,6 +1,6 @@
-﻿using System;
+﻿using ApiAkkaDepencyInjection.Domain;
+using System;
 using System.Collections.Generic;
-using ApiAkkaDepencyInjection.Domain;
 
 namespace ApiAkkaDepencyInjection.Repository.Support
 {

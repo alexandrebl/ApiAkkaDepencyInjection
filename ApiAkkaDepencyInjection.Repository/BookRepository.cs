@@ -1,10 +1,9 @@
 ﻿using ApiAkkaDepencyInjection.Domain;
+using ApiAkkaDepencyInjection.Repository.Base;
 using ApiAkkaDepencyInjection.Repository.Interfaces;
-using System;
+using ApiAkkaDepencyInjection.Repository.Support;
 using System.Collections.Generic;
 using System.Linq;
-using ApiAkkaDepencyInjection.Repository.Base;
-using ApiAkkaDepencyInjection.Repository.Support;
 
 namespace ApiAkkaDepencyInjection.Repository
 {

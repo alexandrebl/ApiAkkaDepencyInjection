@@ -2,7 +2,6 @@
 using ApiAkkaDepencyInjection.Domain;
 using ApiAkkaDepencyInjection.Repository.Interfaces;
 using System;
-using ApiAkkaDepencyInjection.Services.Actors.Interfaces;
 
 namespace ApiAkkaDepencyInjection.Services.Actors
 {

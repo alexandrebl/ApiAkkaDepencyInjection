@@ -60,9 +60,9 @@ namespace ApiAkkaDepencyInjection.Services
             string author, DateTime startDataDateTime, DateTime endDateTime)
         {
             var expression = new Func<Book, bool>(
-                w => w.Autor == author && 
-                     w.PublishDate >= startDataDateTime && 
-                        w.PublishDate <= endDateTime );
+                w => w.Autor == author &&
+                     w.PublishDate >= startDataDateTime &&
+                        w.PublishDate <= endDateTime);
 
             var result = _bookActor.Ask<IEnumerable<Book>>(expression).Result;
 

@@ -1,9 +1,8 @@
-﻿using ApiAkkaDepencyInjection.Services.Interfaces;
+﻿using ApiAkkaDepencyInjection.Domain;
+using ApiAkkaDepencyInjection.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Net;
-using ApiAkkaDepencyInjection.Domain;
 using Microsoft.Extensions.Logging;
+using System;
 
 namespace ApiAkkaDepencyInjection.Application.Controllers
 {
@@ -13,6 +12,7 @@ namespace ApiAkkaDepencyInjection.Application.Controllers
     {
         private readonly IQueryServices _queryServices;
         private readonly ILogger<BookController> _logger;
+
         public BookController(IQueryServices queryServices, ILogger<BookController> logger)
         {
             _queryServices = queryServices;
@@ -96,7 +96,7 @@ namespace ApiAkkaDepencyInjection.Application.Controllers
         }
 
         [HttpGet("author/{author}/{startDataDateTime}/{endDateTime}")]
-        public IActionResult QueryByAuthor([FromRoute] string author, 
+        public IActionResult QueryByAuthor([FromRoute] string author,
             [FromRoute] DateTime startDataDateTime, [FromRoute] DateTime endDateTime)
         {
             try

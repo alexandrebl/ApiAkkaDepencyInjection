@@ -8,8 +8,4 @@
     <ProjectReference Include="..\ApiAkkaDepencyInjection.Domain\ApiAkkaDepencyInjection.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Base\Interfaces\" />
-  </ItemGroup>
-
 </Project>

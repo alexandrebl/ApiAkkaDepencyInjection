@@ -1,14 +1,13 @@
 ﻿using System;
-using System.Linq;
 using System.Collections.Generic;
-using System.Text;
-using ApiAkkaDepencyInjection.Domain;
+using System.Linq;
 
 namespace ApiAkkaDepencyInjection.Repository.Base
 {
     public abstract class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         protected List<T> Repository;
+
         protected GenericRepository()
         {
             Repository = new List<T>();
