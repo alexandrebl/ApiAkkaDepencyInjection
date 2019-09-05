@@ -26,6 +26,8 @@ namespace ApiAkkaDepencyInjection.Application.Controllers
             {
                 _logger.LogInformation("Request information");
 
+                if (!ModelState.IsValid) return new BadRequestObjectResult(ModelState.ValidationState);
+
                 var result = _queryServices.Query();
 
                 return Ok(result);
@@ -44,6 +46,8 @@ namespace ApiAkkaDepencyInjection.Application.Controllers
             try
             {
                 _logger.LogInformation("Request information", code);
+
+                if (!ModelState.IsValid) return new BadRequestObjectResult(ModelState.ValidationState);
 
                 var result = _queryServices.QueryByCode(code);
 
@@ -64,6 +68,8 @@ namespace ApiAkkaDepencyInjection.Application.Controllers
             {
                 _logger.LogInformation("Request information", isbn);
 
+                if (!ModelState.IsValid) return new BadRequestObjectResult(ModelState.ValidationState);
+
                 var result = _queryServices.QueryByIsbn(isbn);
 
                 return Ok(result);
@@ -82,6 +88,8 @@ namespace ApiAkkaDepencyInjection.Application.Controllers
             try
             {
                 _logger.LogInformation("Request information", new { startDataDateTime, endDateTime });
+
+                if (!ModelState.IsValid) return new BadRequestObjectResult(ModelState.ValidationState);
 
                 var result = _queryServices.Query(startDataDateTime, endDateTime);
 
@@ -103,6 +111,8 @@ namespace ApiAkkaDepencyInjection.Application.Controllers
             {
                 _logger.LogInformation("Request information", new { startDataDateTime, endDateTime });
 
+                if (!ModelState.IsValid) return new BadRequestObjectResult(ModelState.ValidationState);
+
                 var result = _queryServices.QueryByAuthorAndDate(author, startDataDateTime, endDateTime);
 
                 return Ok(result);
@@ -121,6 +131,8 @@ namespace ApiAkkaDepencyInjection.Application.Controllers
             try
             {
                 _logger.LogInformation("Request information", book);
+
+                if (!ModelState.IsValid) return new BadRequestObjectResult(ModelState.ValidationState);
 
                 _queryServices.Insert(book);
 
