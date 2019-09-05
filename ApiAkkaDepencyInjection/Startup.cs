@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
+using ApiAkkaDepencyInjection.Application.Middlewares;
 
 namespace ApiAkkaDepencyInjection.Application
 {
@@ -26,6 +27,8 @@ namespace ApiAkkaDepencyInjection.Application
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddSwaggerService();
 
             services.AddTransient<IQueryServices, QueryServices>();
             services.AddSingleton<IBookRepository, BookRepository>();
@@ -48,6 +51,8 @@ namespace ApiAkkaDepencyInjection.Application
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwaggerApp("docs");
 
             app.UseSerilogRequestLogging();
 
