@@ -6,10 +6,12 @@ namespace ApiAkkaDepencyInjection.Services.Interfaces
 {
     public interface IQueryServices
     {
-        void Add(Draw draw);
-
-        IEnumerable<Draw> Query(Func<Draw, bool> predicate);
-
-        IEnumerable<Draw> Query(string code);
+        void Insert(Book draw);
+        IEnumerable<Book> Query();
+        IEnumerable<Book> QueryByCode(string code);
+        IEnumerable<Book> Query(DateTime startDataDateTime, DateTime endDateTime);
+        IEnumerable<Book> QueryByIsbn(string isbn);
+        IEnumerable<Book> QueryByAuthorAndDate(
+            string author, DateTime startDataDateTime, DateTime endDateTime);
     }
 }

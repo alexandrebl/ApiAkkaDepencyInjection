@@ -27,16 +27,17 @@ namespace ApiAkkaDepencyInjection.Application
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             services.AddTransient<IQueryServices, QueryServices>();
-            services.AddSingleton<IDrawRepository, DrawRepository>();
+            services.AddSingleton<IBookRepository, BookRepository>();
 
-            services.AddSingleton<ActorSystem>(ActorSystem.Create("businessActorSystem"));
+            services.AddSingleton(ActorSystem.Create("libraryActorSystem"));
 
-            services.AddSingleton<AkkaProviders.DrawActorProvider>(provider =>
+            services.AddSingleton<CustomProviders.BookActorProvider>(provider =>
             {
                 var actorSystem = provider.GetService<ActorSystem>();
-                var booksManagerActor = actorSystem.ActorOf(
-                    Props.Create(() => new DrawQueryActor(new DrawRepository())));
-                return () => booksManagerActor;
+                var bookActor = actorSystem.ActorOf(
+                    Props.Create(() => new BookQueryActor(
+                        provider.GetService<BookRepository>())));
+                return () => bookActor;
             });
         }
 

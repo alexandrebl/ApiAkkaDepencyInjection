@@ -6,11 +6,11 @@ namespace ApiAkkaDepencyInjection.Application.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class DrawController : ControllerBase
+    public class BookController : ControllerBase
     {
         private readonly IQueryServices _queryServices;
 
-        public DrawController(IQueryServices queryServices)
+        public BookController(IQueryServices queryServices)
         {
             _queryServices = queryServices;
         }
@@ -20,7 +20,7 @@ namespace ApiAkkaDepencyInjection.Application.Controllers
         {
             try
             {
-                var result = _queryServices.Query(code);
+                var result = _queryServices.QueryByCode(code);
 
                 return Ok(result);
             }
