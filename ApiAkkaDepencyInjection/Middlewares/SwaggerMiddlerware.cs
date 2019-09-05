@@ -27,7 +27,7 @@ namespace ApiAkkaDepencyInjection.Application.Middlewares
 
                 var caminhoAplicacao = PlatformServices.Default.Application.ApplicationBasePath;
                 var caminhoXmlDoc =
-                    Path.Combine(caminhoAplicacao, $"ApiAkkaDepencyInjection.xml");
+                    Path.Combine(caminhoAplicacao, $"ApiAkkaDepencyInjection.Application.xml");
 
                 c.IncludeXmlComments(caminhoXmlDoc);
             });

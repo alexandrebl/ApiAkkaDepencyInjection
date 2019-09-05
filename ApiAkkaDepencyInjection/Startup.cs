@@ -31,7 +31,7 @@ namespace ApiAkkaDepencyInjection.Application
             services.AddSwaggerService();
 
             services.AddTransient<IQueryServices, QueryServices>();
-            services.AddSingleton<IBookRepository, BookRepository>();
+            services.AddSingleton<IBookRepository>(new BookRepository());
 
             services.AddSingleton(ActorSystem.Create("libraryActorSystem"));
 
