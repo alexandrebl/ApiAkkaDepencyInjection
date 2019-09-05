@@ -16,9 +16,9 @@ namespace ApiAkkaDepencyInjection.Services
             _bookActor = bookActorProvider();
         }
 
-        public void Insert(Book draw)
+        public void Insert(Book book)
         {
-            _bookActor.Tell(draw);
+            _bookActor.Tell(book);
         }
 
         public IEnumerable<Book> Query()

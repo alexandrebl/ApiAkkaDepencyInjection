@@ -6,7 +6,7 @@ namespace ApiAkkaDepencyInjection.Services.Interfaces
 {
     public interface IQueryServices
     {
-        void Insert(Book draw);
+        void Insert(Book book);
         IEnumerable<Book> Query();
         IEnumerable<Book> QueryByCode(string code);
         IEnumerable<Book> Query(DateTime startDataDateTime, DateTime endDateTime);
