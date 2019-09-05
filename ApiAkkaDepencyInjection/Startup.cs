@@ -40,7 +40,7 @@ namespace ApiAkkaDepencyInjection.Application
                 var actorSystem = provider.GetService<ActorSystem>();
                 var bookActor = actorSystem.ActorOf(
                     Props.Create(() => new BookQueryActor(
-                        provider.GetService<BookRepository>())));
+                        provider.GetService<IBookRepository>())));
                 return () => bookActor;
             });
         }
