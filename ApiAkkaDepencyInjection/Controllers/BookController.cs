@@ -133,9 +133,5 @@ namespace ApiAkkaDepencyInjection.Application.Controllers
                 return new StatusCodeResult(500);
             }
         }
-
-        /*
-         void Insert(Book draw);        
-         */
     }
 }
